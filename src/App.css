@@ -1,0 +1,53 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.Food-container {
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.Food-wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background-color: rgb(34, 255, 89);
+  color: #101572;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.Food-wrapper .Food-wrap{
+  margin-bottom: 40px;
+}
+
+.controls {
+  background-color: rgb(34, 255, 89);
+}
+
+.food-search {
+  margin: 2rem 0;
+  height: 46px;
+  font-size: 20px;
+  padding: .2rem 20px;
+  width: 450px;
+}
